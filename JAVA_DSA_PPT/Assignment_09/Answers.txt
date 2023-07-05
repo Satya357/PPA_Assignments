@@ -1,0 +1,53 @@
+Que.1. What is the difference between Compiler and Interpreter ?
+Ans - Compiler: Translates entire source code to machine code/bytecode before execution. Generates an executable file. Faster execution.
+Interpreter: Executes source code line by line during runtime. No standalone executable file. Slower execution.
+
+Que.2. What is the difference between JDK, JRE, and JVM?
+Ans - JDK: Used for Java development, includes compiler and development tools.
+JRE: Used for running Java applications, includes JVM and core libraries.
+JVM: Executes Java bytecode, provides runtime environment for Java programs.
+
+Q3.How many types of memory areas are allocated by JVM?
+Ans - JVM allocates memory in three main areas:
+1- Heap: Used for dynamic memory allocation and stores objects and data structures. It is shared among all threads.
+2- Stack: Each thread has its own stack, used for storing method invocations, local variables, and partial results. It is used for efficient method execution and memory management.
+3- Method Area (also known as Permanent Generation or Metaspace): Stores class-level information, such as bytecode, constant pool, method data, and static variables.
+
+Que.4.What is JIT compiler?
+Ans - JIT (Just-In-Time) compiler is a component of the Java Virtual Machine (JVM) that dynamically compiles parts of the bytecode into native machine code during runtime. It improves the performance of Java applications by translating frequently executed bytecode into optimized machine code, reducing the need for interpretation.
+
+Que.5.What are the various access specifiers in Java?
+Ans - In Java, there are four access specifiers that control the visibility and accessibility of classes, methods, and variables:
+
+    Public: The most accessible specifier. Public members can be accessed from anywhere, within the same class, other classes in the same package, or from any other package.
+    Protected: Protected members are accessible within the same class, subclasses (even if they are in different packages), and other classes in the same package.
+    Default (No Specifier): Also known as package-private. Members with no specifier are accessible only within the same package.
+    Private: The most restrictive specifier. Private members can only be accessed within the same class. They are not accessible from subclasses or other classes in the same or different packages.
+
+Que.6. What is a compiler in Java?
+Ans - In Java, a compiler is a software tool that translates human-readable Java source code into machine-readable bytecode. It performs various tasks such as lexical analysis, syntax analysis, and code optimization. The compiler checks for errors and generates an output file, typically in the form of a class file, which can be executed by the Java Virtual Machine (JVM).
+
+Que.7. Explain the types of variables in Java?
+Ans-Three types of variable are there -
+    Local Variables: Declared within a method or block. Limited to the scope where they are declared.
+    Instance Variables: Associated with class instances. Unique values per instance.
+    Static Variables: Shared among all instances of a class.
+
+Que.8.What are the Datatypes in Java?
+Ans - Primitive Data Types: boolean, byte, short, int, long, float, double, char.
+      Reference Data Types: classes, arrays.
+
+Que.9.What are the identifiers in java?
+Ans - Identifiers in Java are names used for variables, methods, classes, etc. They consist of letters, digits, underscore (_), or dollar sign ($) and cannot start with a digit.
+
+Que.10.Explain the architecture of JVM ?
+Ans - JVM architecture consists of:
+
+1. Class Loader: Loads class files.
+2. Class Area: Stores class-level data.
+3. Heap: Memory for objects.
+4. Stack: Stores method invocations and local variables.
+5. PC Register: Keeps track of the current instruction.
+6. Native Method Stack: For native method execution.
+7. Execution Engine: Executes bytecode.
+8. Native Method Interface: Interacts with native code/libraries.
