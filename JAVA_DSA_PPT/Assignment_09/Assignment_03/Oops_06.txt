@@ -1,0 +1,9 @@
+Q7. Is Java a 100% Object-Oriented Programming language? If no, why?
+
+Java is not considered a 100% Object-Oriented Programming (OOP) language. Although Java follows many OOP principles and has strong support for object-oriented concepts, it also incorporates some non-object-oriented features. Here are a few reasons why Java is not considered 100% OOP:
+
+Primitive Data Types: Java includes primitive data types (such as int, float, boolean) that are not objects. These types are not part of any class hierarchy and do not inherit from a common superclass like other objects in Java.
+
+Static Members: Java allows the use of static methods and variables, which belong to the class itself rather than individual objects. Static members are not associated with specific instances and can be accessed without object instantiation, which deviates from the pure instance-based nature of OOP.
+
+Procedural Syntax: Java supports procedural programming constructs, such as loops (for, while) and conditional statements (if-else), alongside OOP constructs. These procedural elements allow programmers to write code that is not strictly based on objects and classes.

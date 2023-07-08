@@ -1,0 +1,35 @@
+Abstraction in Java refers to the concept of simplifying complex systems by breaking them down into manageable and understandable components. It involves creating abstract classes and interfaces that define a common set of properties and behaviors without specifying their precise implementation.
+
+abstract class Shape {
+    abstract void draw();
+}
+
+class Circle extends Shape {
+    @Override
+    void draw() {
+        System.out.println("Drawing a circle");
+    }
+}
+
+class Rectangle extends Shape {
+    @Override
+    void draw() {
+        System.out.println("Drawing a rectangle");
+    }
+}
+
+public class AbstractionExample {
+    public static void main(String[] args) {
+        Shape circle = new Circle();
+        Shape rectangle = new Rectangle();
+
+        circle.draw(); // Output: "Drawing a circle"
+        rectangle.draw(); // Output: "Drawing a rectangle"
+    }
+}
+
+In this example, we have an abstract class called Shape, which defines an abstract method draw(). The Shape class serves as a blueprint for specific shapes like circles and rectangles.
+
+The Circle and Rectangle classes extend the Shape class and provide their own implementations of the draw() method. These concrete classes must override the abstract method defined in the Shape class.
+
+In the main method, we create instances of Circle and Rectangle and assign them to the Shape reference variables circle and rectangle. We can call the draw() method on these objects, and the appropriate implementation defined in each subclass will be executed.

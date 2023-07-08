@@ -1,0 +1,3 @@
+Q10.What is the final class in Java?
+
+In Java, a final class is a class that cannot be subclassed or extended. Once a class is declared as final, it cannot be inherited by any other class. It serves as the final implementation of that class and cannot have any subclasses.
