@@ -1,0 +1,3 @@
+Q10.Is it mandatory for a lambda expression to have parameters?
+
+Ans - No, it is not mandatory for a lambda expression to have parameters in Java. Lambda expressions can be defined with or without parameters, depending on the specific use case. If the lambda expression does not require any input parameters, you can define it with empty parentheses. This flexibility allows for more concise and flexible code, as you can choose whether to include parameters based on your specific requirements.

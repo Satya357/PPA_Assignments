@@ -1,0 +1,3 @@
+Q4.What is an interface in Java?
+
+Ans - An interface in Java is a reference type that defines a contract or a set of methods that a class implementing the interface must adhere to. It specifies the behavior that implementing classes should follow without specifying the implementation details. Interfaces are used to define common behavior across multiple classes and enable code reusability. They provide a way to achieve multiple inheritance-like behavior, as a class can implement multiple interfaces. By programming to interfaces, developers can write loosely coupled code, allowing for flexibility and extensibility. Interfaces play a crucial role in achieving abstraction, defining contracts, enabling polymorphism, and designing modular and reusable code in Java.

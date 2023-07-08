@@ -1,0 +1,9 @@
+Q7.Can you pass lambda expressions to a method? When?
+
+Ans - Yes, lambda expressions can be passed as arguments to methods in Java. This is possible when the method parameter type is a functional interface, which is an interface with only one abstract method. By passing a lambda expression as an argument to a method, you can provide the implementation of the abstract method directly at the invocation site. This allows for a more concise and expressive coding style. Lambda expressions are commonly used when you want to customize behavior or provide a callback mechanism. They encapsulate the desired behavior and can be invoked by the method to execute that behavior at the appropriate time.
+
+
+
+
+
+
