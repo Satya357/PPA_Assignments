@@ -1,0 +1,29 @@
+Q1. What is the Spring Framework?
+Ans. The Spring Framework is an open-source Java framework that provides infrastructure support for developing Java applications, including features like dependency injection, aspect-oriented programming, and declarative transaction management.
+
+Q2. What are the features of the Spring Framework?
+Ans. The Spring Framework offers features such as dependency injection, aspect-oriented programming, declarative transaction management, Spring MVC for web development, Spring Security for security management, Spring Data for database access, and integration with other frameworks and technologies.
+
+Q3. What is a Spring configuration file?
+Ans. A Spring configuration file is an XML or Java-based file that contains the configuration metadata for a Spring application. It defines beans, their dependencies, and other settings required by the application.
+
+Q4. What do you mean by IoC Container?
+Ans. The IoC (Inversion of Control) Container, also known as the Spring container, manages the creation and lifecycle of objects (beans) in a Spring application, achieving loose coupling and enabling the inversion of control.
+
+Q5. What do you understand by Dependency Injection?
+Ans. Dependency Injection (DI) is a design pattern where the dependencies of an object are injected or passed into the object from an external source, rather than the object creating or managing its dependencies.
+
+Q6. Explain the difference between constructor and setter injection.
+Ans. Constructor injection involves injecting dependencies via the constructor of a class, while setter injection involves injecting dependencies through setter methods of a class.
+
+Q7. What are Spring Beans?
+Ans. Spring Beans are objects managed by the Spring container. They represent reusable components in an application and are created, configured, and managed by the container.
+
+Q8. What are the bean scopes available in Spring?
+Ans. The common bean scopes in Spring are singleton (a single shared instance), prototype (a new instance for each request), request (a new instance per web request), session (a new instance per web session), and application (a single instance within a web application).
+
+Q9. What is Autowiring, and name the different modes of it?
+Ans. Autowiring is a Spring feature that allows automatic resolution and injection of bean dependencies. The different autowiring modes are "byName," "byType," "constructor," "no," and "autodetect."
+
+Q10. Explain the Bean lifecycle in the Spring Bean Factory Container.
+Ans. The Bean Factory Container in Spring manages the lifecycle of beans, including instantiation, population of properties or dependencies, initialization callbacks, and optional destruction callbacks.
