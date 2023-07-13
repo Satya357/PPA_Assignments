@@ -1,0 +1,29 @@
+Q1. What is the use of JDBC in Java?
+Ans. JDBC allows Java programs to interact with databases, perform operations like data retrieval, insertion, and updates, and build database-driven applications.
+
+Q2. What are the steps involved in JDBC?
+Ans. JDBC involves loading the JDBC driver, establishing a database connection, creating a statement, executing SQL queries, processing the results, and closing the resources.
+
+Q3. What are the types of statements in JDBC in Java?
+Ans. JDBC provides three types of statements: Statement, PreparedStatement, and CallableStatement.
+
+Q4. What is a Servlet in Java?
+Ans. A Servlet in Java is a server-side component that handles client requests, generates dynamic web content, and performs server-side tasks.
+
+Q5. Explain the life cycle of a servlet.
+Ans. The life cycle of a servlet includes loading and initialization, request processing, handling multiple requests, and destruction.
+
+Q6. Explain the difference between RequestDispatcher.forward() and HttpServletResponse.sendRedirect() methods.
+Ans. RequestDispatcher.forward() is used to forward requests to another resource on the server, while HttpServletResponse.sendRedirect() is used to redirect the client's browser to a new URL.
+
+Q7. What is the purpose of the doGet() and doPost() methods in a servlet?
+Ans. The doGet() and doPost() methods handle GET and POST requests respectively, allowing the servlet to process client requests and generate appropriate responses.
+
+Q8. Explain the JSP Model-View-Controller (MVC) architecture.
+Ans. The JSP Model-View-Controller (MVC) architecture separates an application into three components: the model (data and logic), the view (user interface), and the controller (handles requests, updates the model, and selects the appropriate view).
+
+Q9. What are some advantages of Servlets?
+Ans. Servlets provide advantages such as portability, efficiency, reusability, integration capabilities, and built-in security mechanisms.
+
+Q10. What are the limitations of JSP?
+Ans. Some limitations of JSP include complexity when mixing presentation and business logic, slight performance overhead during compilation, limited support for complex logic, and a learning curve for newcomers.
