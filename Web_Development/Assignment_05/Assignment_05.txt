@@ -1,0 +1,39 @@
+Que-1. What’s the difference between Synchronous and Asynchronous?
+
+Ans-1. Synchronous operations in JavaScript are executed one after another in a sequential manner, where each operation blocks the execution until it is completed. On the other hand, asynchronous operations do not block the execution flow. They are initiated and run in the background while the program continues to execute other tasks.
+
+Que-2. What are Web APIs?
+
+Ans-2. Web APIs (Application Programming Interfaces) are a set of functionalities provided by web browsers that allow developers to interact with web features and perform various tasks. They provide methods and interfaces to manipulate HTML elements, make HTTP requests, handle events, perform animations, work with browser storage, and much more.
+
+Que-3. Explain SetTimeOut and setInterval.
+
+Ans-3. setTimeout is a function in JavaScript that allows you to delay the execution of a function or a code block by a specified time interval. It triggers the execution of the code after the specified time has elapsed. setInterval is similar to setTimeout, but it repeatedly executes the provided code at the specified interval until it is stopped.
+
+Que-4. How can you handle Async code in JavaScript?
+
+Ans-4. Asynchronous code in JavaScript can be handled using techniques such as callbacks, promises, and async/await. Callbacks involve passing a function as an argument to another function, which is called once the asynchronous operation is completed. Promises provide a more structured way to handle asynchronous operations and allow chaining of multiple operations. Async/await is a newer syntax introduced in ES6 that provides a more readable and synchronous-like way to write asynchronous code using promises.
+
+Que-5. What are Callbacks & Callback Hell?
+
+Ans-5. Callbacks are functions that are passed as arguments to other functions and are invoked once a certain task is completed. Callback Hell refers to a situation where multiple nested callbacks are used, leading to code that becomes difficult to read, understand, and maintain. It can occur when dealing with complex asynchronous operations, and it can make the code structure overly nested and hard to follow.
+
+Que-6. What are Promises & Explain Some Three Methods of Promise.
+
+Ans-6. Promises are objects in JavaScript that represent the eventual completion or failure of an asynchronous operation. They have three important methods: then(), which is used to handle the resolved value of a promise, catch(), which is used to handle any errors that occur during the promise execution, and finally(), which is used to execute code regardless of the promise outcome.
+
+Que-7. What’s async & await Keyword in JavaScript?
+
+Ans-7. The async and await keywords in JavaScript are used to write asynchronous code in a more synchronous-like manner. The async keyword is used to define an asynchronous function, which automatically returns a promise. The await keyword is used inside an async function to pause the execution of the function until a promise is resolved or rejected, allowing sequential and more readable code flow.
+
+Que-8. Explain Purpose of Try and Catch Block & Why do we need it?
+
+Ans-8. The purpose of the try and catch block in JavaScript is to handle and manage errors in the code. The try block contains the code that might throw an error, and the catch block is used to handle the caught error by specifying the actions to be taken. It helps prevent program crashes and provides a way to gracefully handle and recover from errors during runtime.
+
+Que-9. Explain fetch.
+
+Ans-9. fetch is a built-in function in modern browsers that allows making HTTP requests to retrieve resources such as JSON data, HTML content, or image files from a server. It returns a promise that resolves to the response object, which can be further processed to extract the desired data.
+
+Que-10. How do you define an asynchronous function in JavaScript using async/await?
+
+Ans-10. To define an asynchronous function in JavaScript using async/await, the function is prefixed with the async keyword. This allows the function to use the await keyword inside it to pause the execution until a promise is resolved or rejected.

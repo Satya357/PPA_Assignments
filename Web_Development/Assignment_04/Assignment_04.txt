@@ -1,0 +1,39 @@
+Que-1. Explain Hoisting in JavaScript.
+
+Ans-1. Hoisting in JavaScript is a behavior where variable and function declarations are moved to the top of their containing scope during the compilation phase. This allows you to use variables and invoke functions before they are declared in your code.
+
+Que-2. Explain Temporal Dead Zone.
+
+Ans-2. The Temporal Dead Zone (TDZ) is a behavior introduced in ECMAScript 6 for variables declared with let and const. It refers to the period between the start of a scope and the point at which a variable is declared. Accessing a variable within the TDZ results in a ReferenceError.
+
+Que-3. Difference between var & let.
+
+Ans-3. The main difference between var and let is their scope. Variables declared with var have function scope or global scope, while variables declared with let have block scope. Additionally, variables declared with var are hoisted, while variables declared with let are not hoisted.
+
+Que-4. What are the major features introduced in ECMAScript 6?
+
+Ans-4. ECMAScript 6 introduced significant features such as arrow functions, classes, modules, template literals, enhanced object literals, destructuring assignment, default parameters, rest parameters, spread operator, and more. These features enhance the syntax and capabilities of JavaScript, making it more expressive and easier to work with.
+
+Que-5. What is the difference between let and const?
+
+Ans-5. The main difference between let and const is that let allows variable reassignment, while const creates constants that cannot be reassigned once assigned. Both let and const have block scope and are not hoisted.
+
+Que-6. What is template literals in ES6 and how do you use them?
+
+Ans-6. Template literals are a feature introduced in ES6 that allows for more flexible string interpolation in JavaScript. They use backticks (``) to enclose the string and allow embedded expressions using ${} syntax. Template literals make it easier to concatenate variables and expressions within strings.
+
+Que-7. What's the difference between map and forEach?
+
+Ans-7. The main difference between map and forEach is that map creates a new array with the results of calling a provided function on each element, while forEach simply iterates over the array and performs a specified action for each element. map returns a new array, whereas forEach does not.
+
+Que-8. How can you destructure objects and arrays in ES6?
+
+Ans-8. Destructuring is a feature in ES6 that allows you to extract values from arrays or properties from objects into individual variables. To destructure an array, you use square brackets, and to destructure an object, you use curly braces. The syntax is { variable1, variable2 } = object for objects and [ variable1, variable2 ] = array for arrays.
+
+Que-9. How can you define default parameter values in ES6 functions?
+
+Ans-9. In ES6, you can define default parameter values for function parameters by assigning a value directly in the function declaration. If the parameter is not provided when the function is called, the default value will be used. For example: function myFunction(param = defaultValue) { ... }.
+
+Que-10. What is the purpose of the spread operator (...) in ES6?
+
+Ans-10. The spread operator (...) in ES6 is used to expand elements from an array or properties from an object. It allows you to copy arrays or objects, merge arrays, and pass elements of an array as arguments to a function. The spread operator provides a concise and convenient way to work with arrays and objects.

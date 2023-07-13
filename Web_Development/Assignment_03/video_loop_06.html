@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        height: 90vh;
+      }
+      header {
+        padding: 10px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+      nav {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+      }
+      a {
+        display: block;
+        font-size: 1.5rem;
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      button {
+        margin-left: 20px;
+        background-color: rgb(28, 147, 180);
+        border: none;
+        padding: 5px;
+        border-radius: 10px;
+        padding: 10px 25px;
+      }
+      section {
+        margin: 30px 0;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+      button a {
+        font-size: 1.2rem;
+        color: white;
+        font-weight: 200;
+      }
+      .banks img {
+        width: 500px;
+      }
+      .description {
+        width: 500px;
+      }
+
+      .hamburger {
+        width: 50px;
+        height: 30px;
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 10px;
+      }
+
+      .hamburger div {
+        border: 2px solid black;
+      }
+
+      @media (max-width: 1100px) {
+        nav {
+          display: none;
+        }
+        section {
+          flex-direction: column;
+        }
+        .hamburger {
+          display: flex;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div>
+        <img src="./Utilities/logo_black.svg" alt="one_card_logo" />
+      </div>
+      <nav>
+        <a href="">Home</a>
+        <a href="">About Us</a>
+        <a href="">Careers</a>
+        <a href="">Offers</a>
+        <a href="">Blog</a>
+        <a href="">FAQ</a>
+        <a href="">Contact Us</a>
+        <button>
+          <a href="">Contact Us</a>
+        </button>
+      </nav>
+      <div class="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </header>
+    <section>
+      <div class="hero_content">
+        <h1 class="brand">OnceCard</h1>
+        <p class="co_brand">Co-branded Card Issuers :</p>
+        <div class="banks">
+          <img src="./Utilities/Banking_partners_24thJan_dark__.png" alt="" />
+        </div>
+        <p class="description">
+          India's best metal credit card. Built with full-stack tech. Backed by
+          the principles of simplicity, transparency, and giving back control to
+          the user.
+        </p>
+        <div class="visiting_links">
+          <img
+            src="https://www.getonecard.app/images/icons/cta_apply_now.svg"
+            style="height: auto; width: 225px"
+            alt="Apply for OneCard"
+          />
+        </div>
+      </div>
+      <div>
+        <video autoplay="autoplay" muted="muted" loop="loop" width="600">
+          <source src="./Utilities/say_hi_2x_d3_.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </section>
+  </body>
+</html>

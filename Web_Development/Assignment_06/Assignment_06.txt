@@ -1,0 +1,39 @@
+Que-1. What’s Constructor And Its Purpose?
+
+Ans-1. The constructor is a special method in JavaScript that is used to initialize and create objects of a class. It is called automatically when a new object is created from a class. The purpose of the constructor is to set initial values, assign properties, and perform any other setup required for the object.
+
+Que-2. Explain This Keyword and Its Purpose?
+
+Ans-2. The this keyword in JavaScript refers to the current object on which a method is being invoked. It allows accessing and manipulating the properties and methods of the object within the scope of that method. The purpose of the this keyword is to provide a way to refer to the current object context dynamically.
+
+Que-3. What’s Call Apply Bind Method & Difference Between them?
+
+Ans-3. The call, apply, and bind methods are used to manipulate the value of the this keyword in JavaScript. They allow explicitly setting the context in which a function is called. The main difference between them is how arguments are passed to the function. call and apply immediately invoke the function, while bind returns a new function with the specified context and arguments.
+
+Que-4. Explain OOPS?
+
+Ans-4. OOPS stands for Object-Oriented Programming System. It is a programming paradigm that organizes data and behaviors into reusable structures called objects. It emphasizes the concepts of classes, objects, inheritance, polymorphism, and encapsulation to create modular and maintainable code.
+
+Que-5. What's Abstraction and Its Purpose?
+
+Ans-5. Abstraction is a concept in object-oriented programming that allows hiding the implementation details of an object and exposing only the essential features or functionalities to the outside world. Its purpose is to simplify complex systems by providing a clear and concise interface for interaction, while hiding the internal complexities.
+
+Que-6. What's Polymorphism and the Purpose of it?
+
+Ans-6. Polymorphism is the ability of an object to take on many forms or have multiple behaviors based on its context or the type of data it is handling. It allows objects of different classes to be treated as instances of a common superclass, enabling code reusability and flexibility. The purpose of polymorphism is to improve code organization, maintainability, and extensibility.
+
+Que-7. What's Inheritance and the Purpose of it?
+
+Ans-7. Inheritance is a fundamental concept in object-oriented programming that allows creating new classes (derived or child classes) from existing classes (base or parent classes). It enables the derived classes to inherit properties and behaviors from their parent classes. The purpose of inheritance is to promote code reuse, modularity, and hierarchy in object-oriented systems.
+
+Que-8. What's Encapsulation and the Purpose of it?
+
+Ans-8. Encapsulation is a concept in object-oriented programming that bundles the data and methods (functions) into a single unit called a class. It restricts direct access to the data and provides access through methods, ensuring data integrity and encapsulation. The purpose of encapsulation is to hide internal implementation details and provide a well-defined interface for interacting with the object.
+
+Que-9. Explain Class in JavaScript?
+
+Ans-9. In JavaScript, a class is a blueprint for creating objects with predefined properties and methods. It is a syntactical sugar over the existing prototype-based inheritance model. Classes define the structure and behavior of objects, allowing creating multiple instances with consistent characteristics. They can have constructors, properties, and methods.
+
+Que-10. What's Super Keyword & What it does?
+
+Ans-10. The super keyword in JavaScript is used to call the constructor or methods of a parent class from within a subclass. It is typically used when overriding methods in the subclass but still needing to access the functionality of the parent class. The super keyword allows reusing and extending the behavior of the parent class in the subclass.

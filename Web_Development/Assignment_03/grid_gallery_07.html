@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+      }
+
+      .gallery-item {
+        width: 100%;
+        height: auto;
+      }
+
+      @media (max-width: 1200px) {
+        .gallery {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+
+      @media (max-width: 600px) {
+        .gallery {
+          grid-template-columns: repeat(1, 1fr);
+        }
+      }
+    </style>
+    <title>Grid Gallery</title>
+  </head>
+  <body>
+    <div class="gallery">
+      <img src="./Utilities/image1.webp" alt="Image 1" class="gallery-item" />
+      <img src="./Utilities/image2.webp" alt="Image 2" class="gallery-item" />
+      <img src="./Utilities/image3.webp" alt="Image 3" class="gallery-item" />
+      <img src="./Utilities/image4.jpeg" alt="Image 4" class="gallery-item" />
+      <img src="./Utilities/image7.webp" alt="Image 5" class="gallery-item" />
+      <img src="./Utilities/image5.avif" alt="Image 6" class="gallery-item" />
+    </div>
+  </body>
+</html>

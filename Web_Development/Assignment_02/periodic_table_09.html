@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Periodic Table</title>
+    <style>
+      /* General Styles */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      /* Periodic Table Styles */
+      .periodic-table {
+        display: grid;
+        grid-template-columns: repeat(18, 1fr);
+        grid-gap: 4px;
+        padding: 20px;
+      }
+
+      .element {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #ccc;
+        color: #333;
+        font-weight: bold;
+        padding: 10px;
+        border-radius: 4px;
+        box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+      }
+
+      /* Element Colors */
+      .element.H {
+        background-color: #f9f9f9;
+        color: #333;
+      }
+      .element.He {
+        background-color: #d9ffff;
+        color: #333;
+      }
+      .element.Li {
+        background-color: #cc80ff;
+        color: #fff;
+      }
+      .element.Be {
+        background-color: #c2ff00;
+        color: #333;
+      }
+      .element.B {
+        background-color: #ffb5b5;
+        color: #333;
+      }
+      .element.C {
+        background-color: #000000;
+        color: #fff;
+      }
+      .element.N {
+        background-color: #8f8fff;
+        color: #333;
+      }
+      .element.O {
+        background-color: #ff0d0d;
+        color: #fff;
+      }
+      .element.F {
+        background-color: #90e050;
+        color: #333;
+      }
+      .element.Ne {
+        background-color: #b3e3f5;
+        color: #333;
+      }
+      /* Add more element colors as needed */
+
+      /* Layout Adjustments */
+      .element:nth-child(1) {
+        grid-column: span 2;
+      }
+      .element:nth-child(3) {
+        grid-column: span 16;
+      }
+      .element:nth-child(4) {
+        grid-column: span 16;
+      }
+
+      /* Responsive Styles */
+      @media (max-width: 768px) {
+        .periodic-table {
+          grid-template-columns: repeat(10, 1fr);
+        }
+      }
+
+      @media (max-width: 480px) {
+        .periodic-table {
+          grid-template-columns: repeat(5, 1fr);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="periodic-table">
+      <div class="element H">1<br />Hydrogen</div>
+      <div class="element He">2<br />Helium</div>
+      <div class="element Li">3<br />Lithium</div>
+      <div class="element Be">4<br />Beryllium</div>
+      <div class="element B">5<br />Boron</div>
+      <div class="element C">6<br />Carbon</div>
+      <div class="element N">7<br />Nitrogen</div>
+      <div class="element O">8<br />Oxygen</div>
+      <div class="element F">9<br />Fluorine</div>
+      <div class="element Ne">10<br />Neon</div>
+      <!-- Add more elements as needed -->
+
+      <!-- Elements in Group 1 -->
+      <div class="element">11<br />Sodium</div>
+      <div class="element">12<br />Magnesium</div>
+      <div class="element">13<br />Aluminum</div>
+      <div class="element">14<br />Silicon</div>
+      <div class="element">15<br />Phosphorus</div>
+      <div class="element">16<br />Sulfur</div>
+      <div class="element">17<br />Chlorine</div>
+      <div class="element">18<br />Argon</div>
+      <!-- Add more elements as needed -->
+
+      <!-- Elements in Group 2 -->
+      <div class="element">19<br />Potassium</div>
+      <div class="element">20<br />Calcium</div>
+      <!-- Add more elements as needed -->
+
+      <!-- Elements in Group 3-12 (Transition Metals) -->
+      <div class="element">21<br />Scandium</div>
+      <div class="element">22<br />Titanium</div>
+      <div class="element">23<br />Vanadium</div>
+      <div class="element">24<br />Chromium</div>
+      <div class="element">25<br />Manganese</div>
+      <div class="element">26<br />Iron</div>
+      <div class="element">27<br />Cobalt</div>
+      <div class="element">28<br />Nickel</div>
+      <div class="element">29<br />Copper</div>
+      <div class="element">30<br />Zinc</div>
+      <!-- Add more elements as needed -->
+
+      <!-- Elements in Lanthanides -->
+      <div class="element lanthanides">57<br />Lanthanum</div>
+      <div class="element lanthanides">58<br />Cerium</div>
+      <div class="element lanthanides">59<br />Praseodymium</div>
+      <!-- Add more elements as needed -->
+
+      <!-- Elements in Actinides -->
+      <div class="element actinides">89<br />Actinium</div>
+      <div class="element actinides">90<br />Thorium</div>
+      <div class="element actinides">91<br />Protactinium</div>
+      <!-- Add more elements as needed -->
+    </div>
+  </body>
+</html>

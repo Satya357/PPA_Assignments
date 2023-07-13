@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>responsive_layout</title>
+    <link rel="stylesheet" href="style1.css" />
+    <style>
+      /* Common Styles */
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      /* Desktop Styles */
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      .column {
+        width: 33.33%;
+        float: left;
+        box-sizing: border-box;
+        padding: 10px;
+      }
+
+      /* Tablet Styles */
+      @media (max-width: 992px) {
+        .column {
+          width: 50%;
+        }
+      }
+
+      /* Mobile Styles */
+      @media (max-width: 600px) {
+        .column {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!--question0  Build Responsive Layout both desktop and mobile and Tablet, 
+    see below image for reference ? -->
+
+    <div class="container">
+      <div class="column">
+        <h2>Column 1</h2>
+        <p>This is the content of column 1.</p>
+      </div>
+      <div class="column">
+        <h2>Column 2</h2>
+        <p>This is the content of column 2.</p>
+      </div>
+      <div class="column">
+        <h2>Column 3</h2>
+        <p>This is the content of column 3.</p>
+      </div>
+    </div>
+  </body>
+</html>

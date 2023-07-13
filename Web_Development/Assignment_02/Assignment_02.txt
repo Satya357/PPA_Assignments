@@ -1,0 +1,23 @@
+Que-1. What's Box Model in CSS?
+Ans-1. The Box Model in CSS defines how elements are displayed and structured on a web page. It consists of four components: content, padding, border, and margin.
+
+Que-2. What are the Different Types of Selectors in CSS, and what are the advantages of them?
+Ans-2. CSS offers various types of selectors, such as element selectors, class selectors, ID selectors, attribute selectors, and pseudo-class selectors. These selectors allow developers to target specific elements or groups of elements, apply different styles, and create more specific and reusable CSS rules.
+
+Que-3. What is VW/VH?
+Ans-3. VW (Viewport Width) and VH (Viewport Height) are units of measurement in CSS that allow developers to specify sizes relative to the width and height of the viewport. They are useful for creating responsive designs and ensuring elements scale proportionally with the viewport size.
+
+Que-4. What's the difference between Inline, Inline Block, and Block?
+Ans-4. Inline elements are displayed inline with the surrounding content and do not start on a new line. Block elements, on the other hand, start on a new line and take up the full width available. Inline-block elements are similar to inline elements, but they allow other elements to sit beside them and can have specified width and height.
+
+Que-5. How is Border-box different from Content Box?
+Ans-5. Border-box and Content Box are two different box-sizing properties in CSS. Border-box includes the element's content, padding, and border within its specified width and height, while Content Box calculates width and height based on the content size, excluding padding and border. Border-box is often preferred as it simplifies layout calculations.
+
+Que-6. What's z-index, and how does it function?
+Ans-6. The z-index property in CSS determines the stacking order of elements on the z-axis. It controls which elements appear in front or behind others. Elements with a higher z-index value will appear in front of elements with a lower value. The z-index property is especially useful for positioning elements in layered layouts.
+
+Que-7. What's Grid & Flex, and what's the difference between them?
+Ans-7. Grid and Flex are CSS layout systems used for creating responsive and flexible designs. Grid is a two-dimensional system that arranges elements in rows and columns, allowing precise control over the layout. Flex is a one-dimensional system that provides flexible box layouts, primarily in a single row or column. Grid is best suited for complex layouts, while Flex is ideal for simple, flexible, and centered layouts.
+
+Que-8. Difference between absolute and relative and sticky and fixed position, explain with example.
+Ans-8. Absolute positioning positions an element relative to its nearest positioned ancestor, or the initial containing block if no ancestor is positioned. Relative positioning positions an element relative to its normal position. Sticky positioning is a combination of relative and fixed positioning, where the element is initially positioned relative to its normal position but becomes fixed once it reaches a specified scroll position. Fixed positioning positions an element relative to the viewport, so it remains fixed even when scrolling. Examples would include setting "position: absolute; top: 0; left: 0;" to position an element at the top left corner, or "position: fixed; bottom: 0; right: 0;" to position an element at the bottom right corner of the viewport.

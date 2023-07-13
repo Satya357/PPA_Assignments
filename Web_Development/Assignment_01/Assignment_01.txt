@@ -1,0 +1,23 @@
+Que-1. <!DOCTYPE html> is it a tag of HTML? If not, what is it and why do we use it?
+
+Ans-1. No, <!DOCTYPE html> is not a tag of HTML. It is a document type declaration (DTD) that specifies the version and type of HTML used in a web page. It informs the web browser about the version of HTML to expect, which helps in rendering the page correctly and ensuring compatibility with different browsers.
+
+Que-2. Explain Semantic tags in HTML? And why do we need them?
+
+Ans-2. Semantic tags in HTML are elements that provide meaning and structure to the content they enclose. Examples of semantic tags include <header>, <nav>, <section>, <article>, <footer>, etc. Semantic tags are important because they improve the accessibility and search engine optimization (SEO) of a web page. They make the structure of the content more meaningful, enabling assistive technologies to interpret the page correctly and search engines to better understand its context.
+
+Que-3. Differentiate between HTML Tags and Elements?
+
+Ans-3. HTML tags and elements are related but different concepts. HTML tags are used to define the structure and appearance of elements on a web page. They are enclosed in angle brackets (< >) and include tags like <div>, <p>, <h1>, <a>, etc. On the other hand, HTML elements consist of tags along with the content they enclose. For example, <p> is a tag, while <p>This is a paragraph.</p> is an element. An element is the combination of a tag and its content, which can include other nested elements.
+
+Que-6. What are some of the advantages of HTML5 over its previous versions?
+
+Ans-6. Some of the advantages of HTML5 over its previous versions include improved semantics with new semantic tags like <header>, <nav>, <section>, and <footer>, making it easier to structure web content and enhance accessibility. HTML5 also provides native support for audio and video elements, eliminating the need for third-party plugins and simplifying multimedia integration. The introduction of the <canvas> element allows for dynamic graphics and animations directly on the web page, while the support for Scalable Vector Graphics (SVG) enables the creation of scalable and interactive vector graphics. Additionally, HTML5 includes a geolocation API that allows web applications to access the user's location, facilitating the development of location-based services and applications. These advancements make HTML5 a more versatile and powerful platform for modern web development.
+
+Que-8. What is the difference between <figure> tag and <img> tag?
+
+Ans-8. The <figure> tag and <img> tag have different purposes and functionalities in HTML. The <img> tag is used to embed an image in an HTML document. It requires the "src" attribute to specify the source file of the image and is primarily used to display standalone images within the content of a web page. On the other hand, the <figure> tag is used to group related content, such as images, illustrations, diagrams, or videos, with an optional caption. It provides a semantic structure to associate visual content with its caption or description. The <figure> tag allows for better organization and accessibility of grouped content, while the <img> tag is specifically for displaying individual images.
+
+Que-9. What's the difference between an HTML tag and attribute, and can you provide examples of some global attributes?
+
+Ans-9. In HTML, a tag represents an element and defines its structure, while an attribute provides additional information or modifies the behavior of the tag. Tags define elements like <div>, <p>, or <a>, while attributes are added as name-value pairs within the opening tag. Global attributes that can be used with most HTML tags include "class" for styling, "id" for unique identification, "style" for inline CSS, "title" for tooltips, and "data-*" for custom data attributes used by JavaScript and CSS.
