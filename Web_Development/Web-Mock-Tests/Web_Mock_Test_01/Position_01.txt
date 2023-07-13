@@ -1,0 +1,6 @@
+Que-1. Explain all the CSS positions(static, fixed, sticky, relative, absolute) with one code example each
+Ans- Static: Elements with the static position are positioned according to the normal flow of the document. They are not affected by the top, bottom, left, or right properties.
+Fixed: Fixed positioning allows elements to be positioned relative to the viewport, meaning they stay in a fixed position even when the page is scrolled.
+Sticky: Sticky positioning is a hybrid of relative and fixed positioning. Elements are positioned according to the normal flow until a specified scroll position is reached, after which they behave like fixed elements.
+Relative: Relative positioning allows elements to be positioned relative to their normal position. They still occupy space in the normal document flow, and their position can be adjusted using top, bottom, left, or right properties.
+Absolute: Absolute positioning allows elements to be positioned relative to their closest positioned ancestor or to the document if no positioned ancestor is found. They are removed from the normal flow of the document, and their position can be adjusted using top, bottom, left, or right properties.

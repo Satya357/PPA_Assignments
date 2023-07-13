@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mallchimp</title>
+    <style>
+      header {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 50px;
+      }
+      .logo img {
+        width: 200px;
+      }
+      .world {
+        width: 50px;
+        color: black;
+      }
+      .world_icon img,
+      .search_icon img {
+        width: 35px;
+      }
+
+      nav {
+        display: flex;
+        gap: 50px;
+      }
+      nav a {
+        text-decoration: none;
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      .buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+      }
+      .button {
+        padding: 10px 20px;
+        border-radius: 20px;
+        border: 1px solid black;
+      }
+      .button_yellow {
+        background-color: rgb(247, 236, 32);
+      }
+
+      .sales {
+        position: relative;
+      }
+      .sales :nth-child(1) {
+        position: absolute;
+        right: 0;
+      }
+
+      section {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 60vh;
+      }
+      .description {
+        width: 500px;
+      }
+      p {
+        font-size: 1.5rem;
+      }
+      h1 {
+        font-size: 3rem;
+        font-weight: 600;
+      }
+      .laptop_image img {
+        width: 120%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="##">Products</a>
+        <a href="##">Resources</a>
+        <a href="##">Inspiration</a>
+        <a href="##">Pricing</a>
+      </nav>
+      <div class="logo">
+        <img src="./Utilities/mallchimp.png" alt="logo" />
+      </div>
+      <div class="buttons">
+        <p class="sales">
+          <span>Sales</span><br />
+          <span>+1(800) 315-5939</span>
+        </p>
+        <div class="world_icon">
+          <img src="./Utilities/worldIcon.jpg" alt="world_icon" />
+        </div>
+        <div class="search_icon">
+          <img src="./Utilities/searchIcon.png" alt="search_icon" />
+        </div>
+        <button class="button button_light">Log in</button>
+        <button class="button button_yellow">Start Free Trial</button>
+      </div>
+    </header>
+    <section>
+      <div>
+        <p>LANDING PAGE CREATOR</p>
+        <h1>Create must click landing pages</h1>
+        <p class="description">
+          With Mailchim's landing page builder, it takes just a few minutes to
+          design beautiful landing pages that make visitors want to join your
+          audience or buy your stuff.
+        </p>
+        <button class="button button_yellow">Start Building</button>
+      </div>
+      <div class="laptop_image">
+        <img src="./Utilities/laptop.png" alt="" />
+      </div>
+    </section>
+  </body>
+</html>

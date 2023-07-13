@@ -1,0 +1,15 @@
+Que-3. Explain what is execution context in detail just explain in proper manner ?
+
+Ans- Execution context is a concept in JavaScript that defines the environment in which code is executed. It includes information about the variables, functions, and scopes that are accessible at a particular point during the execution of the code. The execution context plays a crucial role in determining how the code behaves and how variables and functions are accessed and executed.
+
+There are three types of execution contexts in JavaScript:
+
+1. Global Execution Context: This is the default execution context that is created when the JavaScript engine starts running the code. It represents the global scope and includes all the variables and functions that are declared outside of any function. The global execution context is accessible throughout the entire codebase.
+
+2. Function Execution Context: When a function is invoked, a new function execution context is created. It represents the local scope of that specific function and includes all the variables and parameters defined within the function. Each function has its own execution context, and when the function finishes executing, its execution context is destroyed.
+
+3. Eval Execution Context: The eval() function in JavaScript creates a new execution context known as the eval execution context. It allows the execution of code passed as a string parameter. The eval execution context has its own scope and behaves similarly to a function execution context.
+
+Each execution context has its own Variable Environment, Lexical Environment, and Scope Chain. The Variable Environment stores variables and function declarations, while the Lexical Environment handles variable scoping and lexical resolution. The Scope Chain determines the order in which variable and function lookups are performed.
+
+When JavaScript code is executed, the execution contexts are created, stacked, and popped based on the flow of the code. The JavaScript engine keeps track of the current execution context, and whenever a function is called or a new block is entered, a new execution context is created and added to the execution stack. When a function or block finishes executing, its execution context is removed from the stack. 
