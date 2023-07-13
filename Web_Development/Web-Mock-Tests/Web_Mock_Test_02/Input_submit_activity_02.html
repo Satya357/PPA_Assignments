@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input Activity</title>
+    <style>
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <input type="text" id="inputBox" placeholder="Type something" />
+    <button id="submitButton">Submit</button>
+    <ul id="itemList"></ul>
+
+    <script>
+      var inputBox = document.getElementById("inputBox");
+      var submitButton = document.getElementById("submitButton");
+      var itemList = document.getElementById("itemList");
+
+      submitButton.addEventListener("click", function () {
+        var userInput = inputBox.value.trim();
+
+        if (userInput !== "") {
+          var newItem = document.createElement("li");
+          newItem.textContent = userInput;
+          itemList.appendChild(newItem);
+          inputBox.value = "";
+        }
+      });
+    </script>
+  </body>
+</html>
